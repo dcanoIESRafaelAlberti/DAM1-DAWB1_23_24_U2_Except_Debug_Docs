@@ -56,6 +56,7 @@ def main():
 
         # Para continuar comprobamos que se retornó un número en el divisor
         if divisor != None:
+            resultado = None
             # Capturo la excepción fuera del método para comprobar la excepción en el test
             try:
                 resultado = dividir(dividendo, divisor)
